@@ -15,6 +15,15 @@
 		F00388561CE9A91300FCCEF5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F00388541CE9A91300FCCEF5 /* LaunchScreen.storyboard */; };
 		F00388611CE9A91300FCCEF5 /* XPVideoPlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F00388601CE9A91300FCCEF5 /* XPVideoPlayerTests.m */; };
 		F003886C1CE9A91300FCCEF5 /* XPVideoPlayerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F003886B1CE9A91300FCCEF5 /* XPVideoPlayerUITests.m */; };
+		F003887F1CE9AA4A00FCCEF5 /* VideoFullscreen@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F003887B1CE9AA4A00FCCEF5 /* VideoFullscreen@2x.png */; };
+		F00388801CE9AA4A00FCCEF5 /* VideoPlayerPause@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F003887C1CE9AA4A00FCCEF5 /* VideoPlayerPause@2x.png */; };
+		F00388811CE9AA4A00FCCEF5 /* VideoPlayerPlay@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F003887D1CE9AA4A00FCCEF5 /* VideoPlayerPlay@2x.png */; };
+		F00388821CE9AA4A00FCCEF5 /* VideoProgressThumb@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F003887E1CE9AA4A00FCCEF5 /* VideoProgressThumb@2x.png */; };
+		F00388851CE9AAAF00FCCEF5 /* XPVideoPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = F00388841CE9AAAF00FCCEF5 /* XPVideoPlayer.m */; };
+		F00388881CE9AAD800FCCEF5 /* XPVideoPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = F00388871CE9AAD800FCCEF5 /* XPVideoPlayerView.m */; };
+		F07FAB311CEEFB1B00B410AD /* XPVideoCache.m in Sources */ = {isa = PBXBuildFile; fileRef = F07FAB301CEEFB1B00B410AD /* XPVideoCache.m */; };
+		F0B842661CF33BB900998110 /* FileObject.m in Sources */ = {isa = PBXBuildFile; fileRef = F0B842651CF33BB900998110 /* FileObject.m */; };
+		F0EB03A71CEAFB2500F025E8 /* XPVideoPlayerProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = F0EB03A61CEAFB2500F025E8 /* XPVideoPlayerProvider.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,20 +46,34 @@
 /* Begin PBXFileReference section */
 		F00388431CE9A91300FCCEF5 /* XPVideoPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XPVideoPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F00388471CE9A91300FCCEF5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		F00388491CE9A91300FCCEF5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		F003884A1CE9A91300FCCEF5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		F003884C1CE9A91300FCCEF5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		F003884D1CE9A91300FCCEF5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F00388491CE9A91300FCCEF5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = XPVideoPlayer/AppDelegate.h; sourceTree = "<group>"; };
+		F003884A1CE9A91300FCCEF5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = XPVideoPlayer/AppDelegate.m; sourceTree = "<group>"; };
+		F003884C1CE9A91300FCCEF5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = XPVideoPlayer/ViewController.h; sourceTree = "<group>"; };
+		F003884D1CE9A91300FCCEF5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = XPVideoPlayer/ViewController.m; sourceTree = "<group>"; };
 		F00388501CE9A91300FCCEF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		F00388521CE9A91300FCCEF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F00388521CE9A91300FCCEF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = XPVideoPlayer/Assets.xcassets; sourceTree = "<group>"; };
 		F00388551CE9A91300FCCEF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		F00388571CE9A91300FCCEF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F00388571CE9A91300FCCEF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = XPVideoPlayer/Info.plist; sourceTree = "<group>"; };
 		F003885C1CE9A91300FCCEF5 /* XPVideoPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XPVideoPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F00388601CE9A91300FCCEF5 /* XPVideoPlayerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XPVideoPlayerTests.m; sourceTree = "<group>"; };
 		F00388621CE9A91300FCCEF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F00388671CE9A91300FCCEF5 /* XPVideoPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XPVideoPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F003886B1CE9A91300FCCEF5 /* XPVideoPlayerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XPVideoPlayerUITests.m; sourceTree = "<group>"; };
 		F003886D1CE9A91300FCCEF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F003887B1CE9AA4A00FCCEF5 /* VideoFullscreen@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "VideoFullscreen@2x.png"; sourceTree = "<group>"; };
+		F003887C1CE9AA4A00FCCEF5 /* VideoPlayerPause@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "VideoPlayerPause@2x.png"; sourceTree = "<group>"; };
+		F003887D1CE9AA4A00FCCEF5 /* VideoPlayerPlay@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "VideoPlayerPlay@2x.png"; sourceTree = "<group>"; };
+		F003887E1CE9AA4A00FCCEF5 /* VideoProgressThumb@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "VideoProgressThumb@2x.png"; sourceTree = "<group>"; };
+		F00388831CE9AAAF00FCCEF5 /* XPVideoPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPVideoPlayer.h; sourceTree = "<group>"; };
+		F00388841CE9AAAF00FCCEF5 /* XPVideoPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPVideoPlayer.m; sourceTree = "<group>"; };
+		F00388861CE9AAD800FCCEF5 /* XPVideoPlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPVideoPlayerView.h; sourceTree = "<group>"; };
+		F00388871CE9AAD800FCCEF5 /* XPVideoPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPVideoPlayerView.m; sourceTree = "<group>"; };
+		F07FAB2F1CEEFB1B00B410AD /* XPVideoCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPVideoCache.h; sourceTree = "<group>"; };
+		F07FAB301CEEFB1B00B410AD /* XPVideoCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPVideoCache.m; sourceTree = "<group>"; };
+		F0B842641CF33BB900998110 /* FileObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileObject.h; sourceTree = "<group>"; };
+		F0B842651CF33BB900998110 /* FileObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileObject.m; sourceTree = "<group>"; };
+		F0EB03A51CEAFB2500F025E8 /* XPVideoPlayerProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPVideoPlayerProvider.h; sourceTree = "<group>"; };
+		F0EB03A61CEAFB2500F025E8 /* XPVideoPlayerProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPVideoPlayerProvider.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +104,7 @@
 		F003883A1CE9A91300FCCEF5 = {
 			isa = PBXGroup;
 			children = (
+				F00388791CE9A9A400FCCEF5 /* others */,
 				F00388451CE9A91300FCCEF5 /* XPVideoPlayer */,
 				F003885F1CE9A91300FCCEF5 /* XPVideoPlayerTests */,
 				F003886A1CE9A91300FCCEF5 /* XPVideoPlayerUITests */,
@@ -101,15 +125,17 @@
 		F00388451CE9A91300FCCEF5 /* XPVideoPlayer */ = {
 			isa = PBXGroup;
 			children = (
-				F00388491CE9A91300FCCEF5 /* AppDelegate.h */,
-				F003884A1CE9A91300FCCEF5 /* AppDelegate.m */,
-				F003884C1CE9A91300FCCEF5 /* ViewController.h */,
-				F003884D1CE9A91300FCCEF5 /* ViewController.m */,
-				F003884F1CE9A91300FCCEF5 /* Main.storyboard */,
-				F00388521CE9A91300FCCEF5 /* Assets.xcassets */,
-				F00388541CE9A91300FCCEF5 /* LaunchScreen.storyboard */,
-				F00388571CE9A91300FCCEF5 /* Info.plist */,
-				F00388461CE9A91300FCCEF5 /* Supporting Files */,
+				F003887A1CE9AA1E00FCCEF5 /* images */,
+				F00388831CE9AAAF00FCCEF5 /* XPVideoPlayer.h */,
+				F00388841CE9AAAF00FCCEF5 /* XPVideoPlayer.m */,
+				F00388861CE9AAD800FCCEF5 /* XPVideoPlayerView.h */,
+				F00388871CE9AAD800FCCEF5 /* XPVideoPlayerView.m */,
+				F0EB03A51CEAFB2500F025E8 /* XPVideoPlayerProvider.h */,
+				F0EB03A61CEAFB2500F025E8 /* XPVideoPlayerProvider.m */,
+				F07FAB2F1CEEFB1B00B410AD /* XPVideoCache.h */,
+				F07FAB301CEEFB1B00B410AD /* XPVideoCache.m */,
+				F0B842641CF33BB900998110 /* FileObject.h */,
+				F0B842651CF33BB900998110 /* FileObject.m */,
 			);
 			path = XPVideoPlayer;
 			sourceTree = "<group>";
@@ -120,6 +146,7 @@
 				F00388471CE9A91300FCCEF5 /* main.m */,
 			);
 			name = "Supporting Files";
+			path = XPVideoPlayer;
 			sourceTree = "<group>";
 		};
 		F003885F1CE9A91300FCCEF5 /* XPVideoPlayerTests */ = {
@@ -138,6 +165,33 @@
 				F003886D1CE9A91300FCCEF5 /* Info.plist */,
 			);
 			path = XPVideoPlayerUITests;
+			sourceTree = "<group>";
+		};
+		F00388791CE9A9A400FCCEF5 /* others */ = {
+			isa = PBXGroup;
+			children = (
+				F00388491CE9A91300FCCEF5 /* AppDelegate.h */,
+				F003884A1CE9A91300FCCEF5 /* AppDelegate.m */,
+				F003884C1CE9A91300FCCEF5 /* ViewController.h */,
+				F003884D1CE9A91300FCCEF5 /* ViewController.m */,
+				F00388461CE9A91300FCCEF5 /* Supporting Files */,
+				F003884F1CE9A91300FCCEF5 /* Main.storyboard */,
+				F00388521CE9A91300FCCEF5 /* Assets.xcassets */,
+				F00388541CE9A91300FCCEF5 /* LaunchScreen.storyboard */,
+				F00388571CE9A91300FCCEF5 /* Info.plist */,
+			);
+			name = others;
+			sourceTree = "<group>";
+		};
+		F003887A1CE9AA1E00FCCEF5 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				F003887B1CE9AA4A00FCCEF5 /* VideoFullscreen@2x.png */,
+				F003887C1CE9AA4A00FCCEF5 /* VideoPlayerPause@2x.png */,
+				F003887D1CE9AA4A00FCCEF5 /* VideoPlayerPlay@2x.png */,
+				F003887E1CE9AA4A00FCCEF5 /* VideoProgressThumb@2x.png */,
+			);
+			name = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,8 +297,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F00388801CE9AA4A00FCCEF5 /* VideoPlayerPause@2x.png in Resources */,
+				F00388811CE9AA4A00FCCEF5 /* VideoPlayerPlay@2x.png in Resources */,
 				F00388561CE9A91300FCCEF5 /* LaunchScreen.storyboard in Resources */,
+				F003887F1CE9AA4A00FCCEF5 /* VideoFullscreen@2x.png in Resources */,
 				F00388531CE9A91300FCCEF5 /* Assets.xcassets in Resources */,
+				F00388821CE9AA4A00FCCEF5 /* VideoProgressThumb@2x.png in Resources */,
 				F00388511CE9A91300FCCEF5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,9 +328,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F00388881CE9AAD800FCCEF5 /* XPVideoPlayerView.m in Sources */,
 				F003884E1CE9A91300FCCEF5 /* ViewController.m in Sources */,
+				F07FAB311CEEFB1B00B410AD /* XPVideoCache.m in Sources */,
 				F003884B1CE9A91300FCCEF5 /* AppDelegate.m in Sources */,
+				F0EB03A71CEAFB2500F025E8 /* XPVideoPlayerProvider.m in Sources */,
+				F00388851CE9AAAF00FCCEF5 /* XPVideoPlayer.m in Sources */,
 				F00388481CE9A91300FCCEF5 /* main.m in Sources */,
+				F0B842661CF33BB900998110 /* FileObject.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,6 +377,7 @@
 				F00388501CE9A91300FCCEF5 /* Base */,
 			);
 			name = Main.storyboard;
+			path = XPVideoPlayer;
 			sourceTree = "<group>";
 		};
 		F00388541CE9A91300FCCEF5 /* LaunchScreen.storyboard */ = {
@@ -322,6 +386,7 @@
 				F00388551CE9A91300FCCEF5 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = XPVideoPlayer;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -413,7 +478,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = YES;
 				INFOPLIST_FILE = XPVideoPlayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = bupt.edu.xpdu.XPVideoPlayer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -424,7 +491,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = YES;
 				INFOPLIST_FILE = XPVideoPlayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = bupt.edu.xpdu.XPVideoPlayer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -498,6 +567,7 @@
 				F00388721CE9A91300FCCEF5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F00388731CE9A91300FCCEF5 /* Build configuration list for PBXNativeTarget "XPVideoPlayerTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +576,7 @@
 				F00388751CE9A91300FCCEF5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F00388761CE9A91300FCCEF5 /* Build configuration list for PBXNativeTarget "XPVideoPlayerUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +585,7 @@
 				F00388781CE9A91300FCCEF5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
