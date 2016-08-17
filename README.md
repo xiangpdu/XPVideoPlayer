@@ -4,6 +4,7 @@
 
 # usage
 - (void)viewDidLoad {
+
     [super viewDidLoad];
 
     _VView = [[XPVideoPlayerView alloc]init];
@@ -33,4 +34,5 @@
     [_VView setFrame:[UIScreen mainScreen].bounds];
     
     [self.view addSubview:_VView];
+    
 }
