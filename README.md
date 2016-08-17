@@ -4,8 +4,8 @@
 
 # usage
 - (void)viewDidLoad {
-- 
     [super viewDidLoad];
+
     _VView = [[XPVideoPlayerView alloc]init];
     
     [self.view setBackgroundColor:[UIColor whiteColor]];
